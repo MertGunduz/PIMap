@@ -29,6 +29,8 @@ namespace PIMap.PIMap_Forms
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PIMap_AwakeForm));
             this.RightBorder_Panel = new System.Windows.Forms.Panel();
             this.LeftBorder_Panel = new System.Windows.Forms.Panel();
             this.TopBorder_Panel = new System.Windows.Forms.Panel();
@@ -48,6 +50,7 @@ namespace PIMap.PIMap_Forms
             this.BottomLogoMargin_Panel = new System.Windows.Forms.Panel();
             this.RightLogoMargin_Panel = new System.Windows.Forms.Panel();
             this.LeftLogoMargin_Panel = new System.Windows.Forms.Panel();
+            this.Awake_TimerINS = new System.Windows.Forms.Timer(this.components);
             this.Mid_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TextLogo_PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo_PictureBox)).BeginInit();
@@ -226,6 +229,11 @@ namespace PIMap.PIMap_Forms
             this.LeftLogoMargin_Panel.Size = new System.Drawing.Size(25, 292);
             this.LeftLogoMargin_Panel.TabIndex = 10;
             // 
+            // Awake_TimerINS
+            // 
+            this.Awake_TimerINS.Interval = 20;
+            this.Awake_TimerINS.Tick += new System.EventHandler(this.Awake_TimerINS_Tick);
+            // 
             // PIMap_AwakeForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -247,9 +255,11 @@ namespace PIMap.PIMap_Forms
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(154)))), ((int)(((byte)(249)))));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PIMap_AwakeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PIMap";
+            this.Load += new System.EventHandler(this.PIMap_AwakeForm_Load);
             this.Mid_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TextLogo_PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo_PictureBox)).EndInit();
@@ -278,5 +288,6 @@ namespace PIMap.PIMap_Forms
         private System.Windows.Forms.Panel BottomLogoMargin_Panel;
         private System.Windows.Forms.Panel RightLogoMargin_Panel;
         private System.Windows.Forms.Panel LeftLogoMargin_Panel;
+        private System.Windows.Forms.Timer Awake_TimerINS;
     }
 }

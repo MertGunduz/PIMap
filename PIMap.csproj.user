@@ -4,5 +4,8 @@
     <Compile Update="PIMap_Forms\PIMap_AwakeForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="PIMap_Forms\PIMap_MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
