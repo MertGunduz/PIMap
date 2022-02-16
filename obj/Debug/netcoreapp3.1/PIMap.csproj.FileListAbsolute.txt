@@ -1,0 +1,16 @@
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.PIMap_Forms.PIMap_AwakeForm.resources
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.csproj.GenerateResource.cache
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.AssemblyInfoInputs.cache
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.AssemblyInfo.cs
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.csproj.CoreCompileInputs.cache
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.PIMap_Resources.resources
+C:\Users\u\source\repos\PIMap\bin\Debug\netcoreapp3.1\PIMap.exe
+C:\Users\u\source\repos\PIMap\bin\Debug\netcoreapp3.1\PIMap.deps.json
+C:\Users\u\source\repos\PIMap\bin\Debug\netcoreapp3.1\PIMap.runtimeconfig.json
+C:\Users\u\source\repos\PIMap\bin\Debug\netcoreapp3.1\PIMap.runtimeconfig.dev.json
+C:\Users\u\source\repos\PIMap\bin\Debug\netcoreapp3.1\PIMap.dll
+C:\Users\u\source\repos\PIMap\bin\Debug\netcoreapp3.1\PIMap.pdb
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.dll
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.pdb
+C:\Users\u\source\repos\PIMap\obj\Debug\netcoreapp3.1\PIMap.genruntimeconfig.cache
