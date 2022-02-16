@@ -118,10 +118,28 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PIMap_HomeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_HomeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIMap_LanguageIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_LanguageIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PIMap_LogoText" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PIMap_LogoText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PIMap_MainLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PIMap_MainLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIMap_MainSmallLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_MainSmallLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIMap_SettingsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_SettingsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIMap_SmallLogoText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_SmallLogoText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIMap_StartCalculationIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_StartCalculationIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
