@@ -37,9 +37,15 @@ namespace PIMap.PIMap_Forms
             this.TextLogo_PictureBox = new System.Windows.Forms.PictureBox();
             this.MainLogo_PictureBox = new System.Windows.Forms.PictureBox();
             this.UserControl_Panel = new System.Windows.Forms.Panel();
+            this.piMap_HomeUserControl1 = new PIMap.PIMap_UserControls.PIMap_HomeUserControl();
+            this.WindowState_Panel = new System.Windows.Forms.Panel();
+            this.Minimize_Button = new System.Windows.Forms.Button();
+            this.Exit_Button = new System.Windows.Forms.Button();
             this.LeftMenu_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.TextLogo_PictureBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo_PictureBox)).BeginInit();
+            this.UserControl_Panel.SuspendLayout();
+            this.WindowState_Panel.SuspendLayout();
             this.SuspendLayout();
             // 
             // LeftMenu_Panel
@@ -53,7 +59,7 @@ namespace PIMap.PIMap_Forms
             this.LeftMenu_Panel.Dock = System.Windows.Forms.DockStyle.Left;
             this.LeftMenu_Panel.Location = new System.Drawing.Point(0, 0);
             this.LeftMenu_Panel.Name = "LeftMenu_Panel";
-            this.LeftMenu_Panel.Size = new System.Drawing.Size(160, 551);
+            this.LeftMenu_Panel.Size = new System.Drawing.Size(160, 583);
             this.LeftMenu_Panel.TabIndex = 0;
             // 
             // Navigation_PanelINS
@@ -74,7 +80,7 @@ namespace PIMap.PIMap_Forms
             this.Settings_ButtonINS.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(154)))), ((int)(((byte)(249)))));
             this.Settings_ButtonINS.Image = global::PIMap.PIMap_Resources.PIMap_SettingsIcon;
             this.Settings_ButtonINS.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.Settings_ButtonINS.Location = new System.Drawing.Point(0, 501);
+            this.Settings_ButtonINS.Location = new System.Drawing.Point(0, 533);
             this.Settings_ButtonINS.Name = "Settings_ButtonINS";
             this.Settings_ButtonINS.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
             this.Settings_ButtonINS.Size = new System.Drawing.Size(160, 50);
@@ -127,16 +133,64 @@ namespace PIMap.PIMap_Forms
             // UserControl_Panel
             // 
             this.UserControl_Panel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
-            this.UserControl_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.UserControl_Panel.Location = new System.Drawing.Point(160, 0);
+            this.UserControl_Panel.Controls.Add(this.piMap_HomeUserControl1);
+            this.UserControl_Panel.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.UserControl_Panel.Location = new System.Drawing.Point(160, 32);
             this.UserControl_Panel.Name = "UserControl_Panel";
             this.UserControl_Panel.Size = new System.Drawing.Size(462, 551);
             this.UserControl_Panel.TabIndex = 1;
             // 
+            // piMap_HomeUserControl1
+            // 
+            this.piMap_HomeUserControl1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.piMap_HomeUserControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.piMap_HomeUserControl1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.piMap_HomeUserControl1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(154)))), ((int)(((byte)(249)))));
+            this.piMap_HomeUserControl1.Location = new System.Drawing.Point(0, 0);
+            this.piMap_HomeUserControl1.Name = "piMap_HomeUserControl1";
+            this.piMap_HomeUserControl1.Size = new System.Drawing.Size(462, 551);
+            this.piMap_HomeUserControl1.TabIndex = 0;
+            // 
+            // WindowState_Panel
+            // 
+            this.WindowState_Panel.Controls.Add(this.Minimize_Button);
+            this.WindowState_Panel.Controls.Add(this.Exit_Button);
+            this.WindowState_Panel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.WindowState_Panel.Location = new System.Drawing.Point(160, 0);
+            this.WindowState_Panel.Name = "WindowState_Panel";
+            this.WindowState_Panel.Size = new System.Drawing.Size(462, 32);
+            this.WindowState_Panel.TabIndex = 2;
+            // 
+            // Minimize_Button
+            // 
+            this.Minimize_Button.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Minimize_Button.FlatAppearance.BorderSize = 0;
+            this.Minimize_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Minimize_Button.Image = global::PIMap.PIMap_Resources.PIMap_MinimizeIcon;
+            this.Minimize_Button.Location = new System.Drawing.Point(390, 0);
+            this.Minimize_Button.Name = "Minimize_Button";
+            this.Minimize_Button.Size = new System.Drawing.Size(36, 32);
+            this.Minimize_Button.TabIndex = 1;
+            this.Minimize_Button.UseVisualStyleBackColor = true;
+            // 
+            // Exit_Button
+            // 
+            this.Exit_Button.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Exit_Button.FlatAppearance.BorderSize = 0;
+            this.Exit_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Exit_Button.Image = global::PIMap.PIMap_Resources.PIMap_ExitIcon_png;
+            this.Exit_Button.Location = new System.Drawing.Point(426, 0);
+            this.Exit_Button.Name = "Exit_Button";
+            this.Exit_Button.Size = new System.Drawing.Size(36, 32);
+            this.Exit_Button.TabIndex = 0;
+            this.Exit_Button.UseVisualStyleBackColor = true;
+            // 
             // PIMap_MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.ClientSize = new System.Drawing.Size(622, 551);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
+            this.ClientSize = new System.Drawing.Size(622, 583);
+            this.Controls.Add(this.WindowState_Panel);
             this.Controls.Add(this.UserControl_Panel);
             this.Controls.Add(this.LeftMenu_Panel);
             this.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -148,6 +202,8 @@ namespace PIMap.PIMap_Forms
             this.LeftMenu_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.TextLogo_PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.MainLogo_PictureBox)).EndInit();
+            this.UserControl_Panel.ResumeLayout(false);
+            this.WindowState_Panel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -161,5 +217,9 @@ namespace PIMap.PIMap_Forms
         private System.Windows.Forms.Button Home_ButtonINS;
         private System.Windows.Forms.Button Settings_ButtonINS;
         private System.Windows.Forms.Panel Navigation_PanelINS;
+        private System.Windows.Forms.Panel WindowState_Panel;
+        private System.Windows.Forms.Button Minimize_Button;
+        private System.Windows.Forms.Button Exit_Button;
+        private PIMap_UserControls.PIMap_HomeUserControl piMap_HomeUserControl1;
     }
 }

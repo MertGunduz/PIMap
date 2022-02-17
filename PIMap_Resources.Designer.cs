@@ -61,6 +61,35 @@ namespace PIMap {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 3.141592653589793238462643383279502884197169399375105820974944592307816406286208998628034825342117067982148086513282306647093844609550582231725359408128481117450284102701938521105559644622948954930381964428810975665933446128475648233786783165271201909145648566923460348610454326648213393607260249141273724587006606315588174881520920962829254091715364367892590360011330530548820466521384146951941511609433057270365759591953092186117381932611793105118548074462379962749567351885752724891227938183011949129833673362 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string PI_TEXT {
+            get {
+                return ResourceManager.GetString("PI_TEXT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PIMap_CalculationText {
+            get {
+                object obj = ResourceManager.GetObject("PIMap_CalculationText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PIMap_ExitIcon_png {
+            get {
+                object obj = ResourceManager.GetObject("PIMap_ExitIcon_png", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap PIMap_HomeIcon {
@@ -106,6 +135,16 @@ namespace PIMap {
         internal static System.Drawing.Bitmap PIMap_MainSmallLogo {
             get {
                 object obj = ResourceManager.GetObject("PIMap_MainSmallLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PIMap_MinimizeIcon {
+            get {
+                object obj = ResourceManager.GetObject("PIMap_MinimizeIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

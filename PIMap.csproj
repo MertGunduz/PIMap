@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="PIMap_UserControls\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="PIMap_Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
