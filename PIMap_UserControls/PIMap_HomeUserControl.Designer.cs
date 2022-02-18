@@ -48,7 +48,6 @@ namespace PIMap.PIMap_UserControls
             this.TopBorder_Panel = new System.Windows.Forms.Panel();
             this.LeftBorder_Panel = new System.Windows.Forms.Panel();
             this.RightBorder_Panel = new System.Windows.Forms.Panel();
-            this.PIIndexCalculator_BackgroundWorkerINS = new System.ComponentModel.BackgroundWorker();
             this.Main_Panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.CalculationResult_PictureBox)).BeginInit();
             this.SuspendLayout();
@@ -178,6 +177,7 @@ namespace PIMap.PIMap_UserControls
             this.EnterNumber_TextBox.Size = new System.Drawing.Size(418, 50);
             this.EnterNumber_TextBox.TabIndex = 12;
             this.EnterNumber_TextBox.Text = "  Enter Number:";
+            this.EnterNumber_TextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.EnterNumber_TextBox_MouseClick);
             // 
             // InnerBottomBorder_Panel
             // 
@@ -247,11 +247,6 @@ namespace PIMap.PIMap_UserControls
             this.RightBorder_Panel.Size = new System.Drawing.Size(2, 531);
             this.RightBorder_Panel.TabIndex = 4;
             // 
-            // PIIndexCalculator_BackgroundWorkerINS
-            // 
-            this.PIIndexCalculator_BackgroundWorkerINS.WorkerReportsProgress = true;
-            this.PIIndexCalculator_BackgroundWorkerINS.WorkerSupportsCancellation = true;
-            // 
             // PIMap_HomeUserControl
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
@@ -292,6 +287,5 @@ namespace PIMap.PIMap_UserControls
         private System.Windows.Forms.Panel SecondButtonMargin_Panel;
         private System.Windows.Forms.RichTextBox CalculationResult_RichTextBox;
         private System.Windows.Forms.PictureBox CalculationResult_PictureBox;
-        private System.ComponentModel.BackgroundWorker PIIndexCalculator_BackgroundWorkerINS;
     }
 }

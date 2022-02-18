@@ -82,6 +82,26 @@ namespace PIMap {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PIMap_CheckedIcon {
+            get {
+                object obj = ResourceManager.GetObject("PIMap_CheckedIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PIMap_DataFileText {
+            get {
+                object obj = ResourceManager.GetObject("PIMap_DataFileText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PIMap_ExitIcon_png {
             get {
                 object obj = ResourceManager.GetObject("PIMap_ExitIcon_png", resourceCulture);
@@ -152,6 +172,16 @@ namespace PIMap {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PIMap_SelectLanguageText {
+            get {
+                object obj = ResourceManager.GetObject("PIMap_SelectLanguageText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PIMap_SettingsIcon {
             get {
                 object obj = ResourceManager.GetObject("PIMap_SettingsIcon", resourceCulture);
@@ -175,6 +205,16 @@ namespace PIMap {
         internal static System.Drawing.Bitmap PIMap_StartCalculationIcon {
             get {
                 object obj = ResourceManager.GetObject("PIMap_StartCalculationIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap PIMap_UncheckedIcon {
+            get {
+                object obj = ResourceManager.GetObject("PIMap_UncheckedIcon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

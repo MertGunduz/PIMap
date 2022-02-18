@@ -121,6 +121,12 @@
   <data name="PIMap_CalculationText" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PIMap_CalculationText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PIMap_CheckedIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_CheckedIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIMap_DataFileText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_DataFileText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PIMap_ExitIcon_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PIMap_ExitIcon.png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -142,6 +148,9 @@
   <data name="PIMap_MinimizeIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PIMap_MinimizeIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PIMap_SelectLanguageText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_SelectLanguageText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PIMap_SettingsIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PIMap_SettingsIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -150,6 +159,9 @@
   </data>
   <data name="PIMap_StartCalculationIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PIMap_StartCalculationIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIMap_UncheckedIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\PIMap_UncheckedIcon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="PI_TEXT" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\PI_TEXT.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;windows-1254</value>

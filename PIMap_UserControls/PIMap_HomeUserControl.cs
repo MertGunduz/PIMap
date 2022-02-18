@@ -73,5 +73,13 @@ namespace PIMap.PIMap_UserControls
                 }
             }
         }
+
+        private void EnterNumber_TextBox_MouseClick(object sender, MouseEventArgs e)
+        {
+            if (EnterNumber_TextBox.Text == "  Enter Number:")
+            {
+                EnterNumber_TextBox.Clear();
+            }
+        }
     }
 }

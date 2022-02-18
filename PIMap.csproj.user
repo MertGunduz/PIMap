@@ -10,5 +10,8 @@
     <Compile Update="PIMap_UserControls\PIMap_HomeUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="PIMap_UserControls\PIMap_SettingsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
   </ItemGroup>
 </Project>
