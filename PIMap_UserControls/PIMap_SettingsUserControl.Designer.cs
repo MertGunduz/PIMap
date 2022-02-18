@@ -280,6 +280,7 @@ namespace PIMap.PIMap_UserControls
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(154)))), ((int)(((byte)(249)))));
             this.Name = "PIMap_SettingsUserControl";
             this.Size = new System.Drawing.Size(462, 551);
+            this.Load += new System.EventHandler(this.PIMap_SettingsUserControl_Load);
             this.Main_Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DataFile_PictureBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.SelectLanguage_PictureBox)).EndInit();

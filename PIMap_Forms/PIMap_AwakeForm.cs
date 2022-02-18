@@ -66,7 +66,7 @@ namespace PIMap.PIMap_Forms
             {
                 selectedLanguage = Languages.Turkish;
             }
-s
+
             Awake_TimerINS.Start();
         }
 

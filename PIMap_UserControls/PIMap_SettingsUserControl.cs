@@ -16,6 +16,19 @@ namespace PIMap.PIMap_UserControls
             InitializeComponent();
         }
 
+        private void PIMap_SettingsUserControl_Load(object sender, EventArgs e)
+        {
+            // Sets The Button Icon
+            if (PIMap_Forms.PIMap_AwakeForm.permissionToWrite)
+            {
+                WriteDataFile_Button.Image = PIMap_Resources.PIMap_CheckedIcon;
+            }
+            else
+            {
+                WriteDataFile_Button.Image = PIMap_Resources.PIMap_UncheckedIcon;
+            }
+        }
+
         private void WriteDataFile_Button_Click(object sender, EventArgs e)
         {
             if (PIMap_Forms.PIMap_AwakeForm.permissionToWrite)
