@@ -36,6 +36,7 @@ namespace PIMap.PIMap_Forms
 
         private void PIMap_AwakeForm_Load(object sender, EventArgs e)
         {
+            /*
             // Reads The Configuration File
             if (PIMap_Resources.Configuration_TEXT.Contains("WRITE_PERM_1"))
             {
@@ -66,7 +67,7 @@ namespace PIMap.PIMap_Forms
             {
                 selectedLanguage = Languages.Turkish;
             }
-
+            */
             Awake_TimerINS.Start();
         }
 

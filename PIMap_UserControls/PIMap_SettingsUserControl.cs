@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Media;
+using System.IO;
 using System.Windows.Forms;
 
 namespace PIMap.PIMap_UserControls
@@ -36,15 +37,18 @@ namespace PIMap.PIMap_UserControls
                 // Sets The Permission To False
                 PIMap_Forms.PIMap_AwakeForm.permissionToWrite = false;
                 WriteDataFile_Button.Image = PIMap_Resources.PIMap_UncheckedIcon;
+
+                // Changing The Permission To Write_PERM_0
+                
             }
             else
             {
                 // Sets The Permission To True
                 PIMap_Forms.PIMap_AwakeForm.permissionToWrite = true;
                 WriteDataFile_Button.Image = PIMap_Resources.PIMap_CheckedIcon;
-            }
 
-            MessageBox.Show(PIMap_Resources.Configuration_TEXT.ToString());
+                // Changing The Permission To Write_PERM_1
+            }
         }
     }
 }
