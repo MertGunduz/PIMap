@@ -126,6 +126,7 @@ namespace PIMap.PIMap_UserControls
             this.WriteDataFile_Button.Text = "Write Data File";
             this.WriteDataFile_Button.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.WriteDataFile_Button.UseVisualStyleBackColor = false;
+            this.WriteDataFile_Button.Click += new System.EventHandler(this.WriteDataFile_Button_Click);
             // 
             // FirstListboxMargin_Panel
             // 
