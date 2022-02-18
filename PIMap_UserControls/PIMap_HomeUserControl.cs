@@ -19,9 +19,6 @@ namespace PIMap.PIMap_UserControls
         // Comparer String
         string userNumberComparer;
 
-        // PI String
-        string piDigits;
-
         public PIMap_HomeUserControl()
         {
             InitializeComponent();
@@ -32,16 +29,13 @@ namespace PIMap.PIMap_UserControls
             // Sets The String
             userNumber = EnterNumber_TextBox.Text;
 
-            // Sets PI
-            piDigits = PIMap_Resources.PI_TEXT;
-
             // Writes The Calculation Number
             CalculationResult_RichTextBox.Text = $"  Calculation Number: {userNumber}\n\n";
 
             // Reads The Estimated Value & Shows The Index
-            for (int i = 0; i < piDigits.Length; i++)
+            for (int i = 0; i < PIMap_Resources.PI_TEXT.Length; i++)
             {
-                userNumberComparer += piDigits[i];
+                userNumberComparer += PIMap_Resources.PI_TEXT[i];
 
                 if (userNumberComparer.Length == userNumber.Length)
                 {
@@ -62,12 +56,10 @@ namespace PIMap.PIMap_UserControls
                     }
                     else
                     {
-                        if (i >= piDigits.Length - userNumber.Length - 8)
+                        if (i >= PIMap_Resources.PI_TEXT.Length - userNumber.Length - 8)
                         {
                             // Write Result & Break
                             CalculationResult_RichTextBox.Text += "  - Index Not Found (1.000.000 Million Digits) -";
-
-                            Thread.Sleep(5000);
 
                             break;
                         }
