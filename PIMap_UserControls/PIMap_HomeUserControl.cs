@@ -26,6 +26,9 @@ namespace PIMap.PIMap_UserControls
 
         private void CalculatePIIndex_Button_Click(object sender, EventArgs e)
         {
+            // Sets The UserNumberComparer To Empty
+            userNumberComparer = String.Empty;
+
             // Sets The String
             userNumber = EnterNumber_TextBox.Text;
 
