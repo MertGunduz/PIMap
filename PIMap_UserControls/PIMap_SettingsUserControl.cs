@@ -33,16 +33,18 @@ namespace PIMap.PIMap_UserControls
         {
             if (PIMap_Forms.PIMap_AwakeForm.permissionToWrite)
             {
-                // Sets The Permission To True
-                PIMap_Forms.PIMap_AwakeForm.permissionToWrite = true;
-                WriteDataFile_Button.Image = PIMap_Resources.PIMap_CheckedIcon;
-            }
-            else
-            {
                 // Sets The Permission To False
                 PIMap_Forms.PIMap_AwakeForm.permissionToWrite = false;
                 WriteDataFile_Button.Image = PIMap_Resources.PIMap_UncheckedIcon;
             }
+            else
+            {
+                // Sets The Permission To True
+                PIMap_Forms.PIMap_AwakeForm.permissionToWrite = true;
+                WriteDataFile_Button.Image = PIMap_Resources.PIMap_CheckedIcon;
+            }
+
+            MessageBox.Show(PIMap_Resources.Configuration_TEXT.ToString());
         }
     }
 }
